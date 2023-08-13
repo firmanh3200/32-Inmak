@@ -5,9 +5,9 @@ import os
 import warnings
 warnings.filterwarnings('ignore')
 
-st.set_page_config(page_title="Indikator Makro Jawa Barat", page_icon=":pie_chart:",layout="wide")
+st.set_page_config(page_title="Indikator Makro Jawa Barat", page_icon=":line_chart:",layout="wide")
 
-st.title(" :pie_chart: Indikator Makro Jawa Barat")
+st.title(" :line_chart: Indikator Makro Jawa Barat")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
 
 fl = st.file_uploader(":file_folder: Upload file CSV atau Excel",type=(["csv","txt","xlsx","xls"]))
